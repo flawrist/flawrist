@@ -1,0 +1,44 @@
+name: Nologs
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+  actions: write
+jobs:
+  truncate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+      - name: History
+        run: >
+          git config --global user.name "github-actions[bot]"
+
+          git config --global user.email
+          "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan latest_branch
+
+          git add -A
+
+          git commit --allow-empty -m "Latest version"
+
+          git push origin +latest_branch:main
+      - name: Purge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: >
+          runs=$(gh api -X GET "/repos/${{ github.repository
+          }}/actions/workflows/nologs.yml/runs" --jq '.workflow_runs[].id')
+
+          for id in $runs; do
+            if [ "$id" != "$CURRENT_RUN_ID" ]; then
+              echo "Deleting workflow run: $id"
+              gh api -X DELETE "/repos/${{ github.repository }}/actions/runs/$id" || true
+            fi
+          done
