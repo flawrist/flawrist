@@ -7,36 +7,72 @@ permissions:
   contents: write
   actions: write
 jobs:
-  truncate:
+  reset:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@main
         with:
-          fetch-depth: 1
-      - name: Reset Repository History
+          fetch-depth: 0
+
+      - name: Удалить все ветки, кроме main, и все теги
+        run: |
+          git branch -r | grep -v 'main$' | sed 's/origin\///' | while read branch; do
+            git push origin --delete "$branch" || true
+          done
+          git tag -l | while read tag; do
+            git push origin --delete "$tag" || true
+          done
+
+      - name: Временно сменить ветку по умолчанию на temp
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Создаём временную ветку от текущего main
+          git checkout -b temp
+          git push origin temp
+          # Меняем ветку по умолчанию через API
+          gh api -X PATCH /repos/${{ github.repository }} -f default_branch=temp
+
+      - name: Удалить старую ветку main через API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Удаляем ссылку на main
+          gh api -X DELETE /repos/${{ github.repository }}/git/refs/heads/main
+
+      - name: Создать новую main с одним коммитом
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -rf .git
-          git init
-          git checkout -b main
+          git checkout --orphan latest_branch
           git add -A
-          git commit -m "Latest production release"
-          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@://github.com{{ github.repository }}.git"
-          git push origin main --force
-      - name: Purge
+          git commit --allow-empty -m "Latest version"
+          git push origin +latest_branch:main
+          git branch -D latest_branch
+
+      - name: Вернуть main как ветку по умолчанию
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X PATCH /repos/${{ github.repository }} -f default_branch=main
+
+      - name: Удалить временную ветку temp
+        run: |
+          git push origin --delete temp || true
+
+      - name: Проверка количества коммитов
+        run: |
+          git rev-list --count --all
+
+      - name: Очистка старых запусков workflow
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CURRENT_RUN_ID: ${{ github.run_id }}
         run: |
-          runs=$(gh api -X GET "/repos/${{ github.repository
-          }}/actions/workflows/nologs.yml/runs" --jq '.workflow_runs[].id')
-
+          runs=$(gh api -X GET "/repos/${{ github.repository }}/actions/workflows/nologs.yml/runs" --jq '.workflow_runs[].id')
           for id in $runs; do
             if [ "$id" != "$CURRENT_RUN_ID" ]; then
-              echo "Deleting workflow run: $id"
               gh api -X DELETE "/repos/${{ github.repository }}/actions/runs/$id" || true
             fi
           done
-          
