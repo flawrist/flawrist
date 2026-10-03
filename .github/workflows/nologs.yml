@@ -14,19 +14,22 @@ jobs:
         uses: actions/checkout@main
         with:
           fetch-depth: 1
-      - name: History
+      - name: Reset Repository History
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan latest_branch
+          rm -rf .git
+          git init
+          git checkout -b main
           git add -A
-          git commit -m "Latest version"
-          git push origin HEAD:main --force
+          git commit -m "Latest production release"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@://github.com{{ github.repository }}.git"
+          git push origin main --force
       - name: Purge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CURRENT_RUN_ID: ${{ github.run_id }}
-        run: >
+        run: |
           runs=$(gh api -X GET "/repos/${{ github.repository
           }}/actions/workflows/nologs.yml/runs" --jq '.workflow_runs[].id')
 
