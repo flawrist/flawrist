@@ -73,7 +73,7 @@ KTMi45VNnPfk+IRWYrR4AAQ=
 
 <br>
 
-<h2>&#x2623;&#xFE0E;&nbsp;&nbsp;GitHub. Open source, closed hearts</h2>
+<h2>&#x2623;&#xFE0E;&nbsp;&nbsp;GitHub. Open code, cold abode</h2>
 
 <div><ruby><div>
 
