@@ -133,7 +133,7 @@ Let us build what shelters, rather than excludes.
 \large
 \begin{array}{ll}
 & \strut\text{Techno-shills preach Windows 7 is a ghost, a dead man walking.}\cr
-& \strut\text{Mainstream parrots the obit, then sleeps like a baby.}\cr
+& \strut\text{Mainstream drones parrot the obit, then sleep like a baby.}\cr
 & \strut\text{Silicon Valley expiration dates, worshiped like laws of physics.}\cr
 & \strut\text{OS ranks smeared across Wikipedia napkins, cited like scripture.}\cr
 \cr
