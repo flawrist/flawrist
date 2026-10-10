@@ -124,7 +124,7 @@ Let us build what shelters, rather than excludes.
 ```
 </p></details></blockquote>
 
-<h2>Windows 7. Cast exiled, not expired&nbsp;&nbsp;&nbsp;&nbsp;&#x1F47B;&#xFE0E;</h2>
+<h2>Windows 7. Cast exiled, not expired&nbsp;&nbsp;&#x1F47B;&#xFE0E;</h2>
 
 <div><ruby><div>
 
