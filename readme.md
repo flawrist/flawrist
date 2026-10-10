@@ -4,7 +4,7 @@
 
 <br><br>
 
-<h1>Me. ̮̪̈S̖̜͚̽h̟̪̲̦͚̙ͮe͕̬̔͛͌à̜̫͍̣͖͕̰̑̉ͧ̿̒ͨ̈́r̯̠̦̩̗͓̜̥̭ͨ̌̑̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ à̜̫͍̣͖̑̉ͧ̿n͎̦̜̻͈͔̤͊͒̀̽͒̓̇d̼̪̫̙̔ ͬ̅b̖̰̮͕̰͊͗ͬ̒ͨ̈́r̯̠̦̩̜̟͙͕ͨ̌̑̎̄̆i̲̦͚̙͗e͕̬͕̰̔͛͌̒ͨ̈́r̯̠̦̩̗͓̜̥̭ͨ̌̑̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ</h1>
+<h1>̝̦M̧̟͔̫ͅe͔̠̮͜. S̖̜͚̽h̟̪̲̦͚̙ͮe͕̬̔͛͌à̜̫͍̣͖͕̰̑̉ͧ̿̒ͨ̈́r̯̠̦̩̗͓̜̥̭ͨ̌̑̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ à̜̫͍̣͖̑̉ͧ̿n͎̦̜̻͈͔̤͊͒̀̽͒̓̇d̼̪̫̙̔ ̗͓̜̥̭̄̈ͪͧs̲̬̝͕̯͍̱̍ͭ̓ͦc̟͕̐à̜̫͍̣͖͕̰̑̉ͧ̿̒ͨ̈́r̯̠̦̩̗͓̜̥̭ͨ̌̑̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ</h1>
 
 <br>
 
@@ -24,7 +24,7 @@
 &\text{Brittle architecture. Hollow execution. Wasted potential.}\cr
 &\text{My shears are sharp for that rot — and the mind behind it.}\cr
 \cr\cr
-&\text{Contact: } \mathbf{\color{blue}{\text{flawrist} <!-- >@example.invalid --> \mathtt{&#64;} \text{riseup} \mathtt{&#46;} \text{net}}}\cr
+&\text{For missives: } \mathbf{\color{blue}{\text{flaw} \mathrm{rist} <!-- >@example.invalid --> \mathtt{&#64;} \mathrm{ris} \text{eup} \mathtt{&#46;} \text{net}}}\cr
 &\small\text{Encrypt sensitive data with my public key before it hits the wire.}\cr
 \end{array}
 ```
@@ -68,7 +68,7 @@ KTMi45VNnPfk+IRWYrR4AAQ=
 
 <br><br>
 
-<h1>Them. Ä̤̗́̂̚u͔̤ͦ̽͒̓̇d̼̪̫̙̜̟͙͕̔̎̄̆i̠̜͗̈́ͯ̾͊ͅt͓̙͔̗͓̜̥̭͊̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ ̥͍̦̩̱o̘͇̩̞̖ͯ̋ͭ͂ͥf̥̖̗̔ h̟̪̲̦͚̙ͮe͕̬̔͛͌à̜̫͍̣͖͕̰̑̉ͧ̿̒ͨ̈́r̯̠̦̩̠̜ͨ̌̑̈́ͯ̾͊ͅt͓̙͔͊ ͕̰̒ͨ̈́r̯̠̦̩̥͍̦̩̱ͨ̌̑o̘͇̩̞̠̜ͯ̋ͭ͂̈́ͯ̾͊ͅt͓̙͔͊</h1>
+<h1>T̥̖̱̯h̹̟̘̭e̱̦̯̗̥̝̹̩m̭̖͜. Ä̤̗́̂̚u͔̤ͦ̽͒̓̇d̼̪̫̙̜̟͙͕̔̎̄̆i̠̜͗̈́ͯ̾͊ͅt͓̙͔̗͓̜̥̭͊̄̈ͪͧs̲̬̝͕̍ͭ̓ͦ ̥͍̦̩̱o̘͇̩̞̖ͯ̋ͭ͂ͥf̥̖̗̔ h̟̪̲̦͚̙ͮe͕̬̔͛͌à̜̫͍̣͖͕̰̑̉ͧ̿̒ͨ̈́r̯̠̦̩̠̜ͨ̌̑̈́ͯ̾͊ͅt͓̙͔͊ ͕̰̒ͨ̈́r̯̠̦̩̥͍̦̩̱ͨ̌̑o̘͇̩̞̠̜ͯ̋ͭ͂̈́ͯ̾͊ͅt͓̙͔͊</h1>
 
 <br>
 
