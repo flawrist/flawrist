@@ -72,7 +72,7 @@ KTMi45VNnPfk+IRWYrR4AAQ=
 
 <br>
 
-<h2>&#x2623;&#xFE0E;&nbsp;&nbsp;GitHub. Open code, cold abode</h2>
+<h2>GitHub. Open code, cold abode&nbsp;&nbsp;&nbsp;&#x26C4;&#xFE0E;</h2>
 
 <div><ruby><div>
 
@@ -124,7 +124,7 @@ Let us build what shelters, rather than excludes.
 ```
 </p></details></blockquote>
 
-<h2>Windows 7. Cast exiled, not expired&nbsp;&nbsp;&#x1F47B;&#xFE0E;</h2>
+<h2>Windows 7. Cast exiled, not expired&nbsp;&nbsp;&nbsp;&#x1F47B;&#xFE0E;</h2>
 
 <div><ruby><div>
 
@@ -149,6 +149,5 @@ Let us build what shelters, rather than excludes.
 
 <!--
 IDEAS
-- Veneer over the void.
 - <div><sup><a href="/readme.txt">plain text version</a></sup></div>
 - Original: <img src="https://github.com/user-attachments/assets/ab07c916-6691-4f42-88f2-941dcdc694d4">
