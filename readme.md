@@ -135,19 +135,31 @@ Let us build what shelters, rather than excludes.
 & \strut\text{Mainstream drones parrot the obit, then sleep like a baby.}\cr
 & \strut\text{Silicon Valley expiration dates, worshiped like laws of physics.}\cr
 & \strut\text{OS ranks smeared across Wikipedia napkins, cited like scripture.}\cr
-\cr
 & \strut\text{But those numbers? They have a smell…}\cr
 \end{array}
 ```
 </div></ruby></div>
 
-<blockquote>Follow the scent to <b><a href="https://github.com/flawrist/win7underground">win7underground</a></b>, where the living refuse to die.</blockquote>
+<blockquote>Follow the scent to <a href="https://github.com/flawrist/win7underground">win7underground</a>, where the living refuse to die.</blockquote>
+
+<h2>Databases. Faded names, rigid frames&nbsp;&nbsp;&nbsp;&#x1F41A;&#xFE0E;</h2>
+
+<div><ruby><div>
+
+```math
+\large
+\begin{array}{ll}
+& \strut\text{Pulse falters when a username turns into a tight collar.}\cr
+& \strut\text{Your past self hangs upon tomorrow like a millstone.}\cr
+& \strut\text{You give less and less, then one night you are a fossil.}\cr
+& \strut\text{Some joints let you fix the papers and stay in the game.}\cr
+& \strut\text{Others seal the registry or charge a ransom for the ink.}\cr
+\end{array}
+```
+</div></ruby></div>
+
+<blockquote>In one, you are a living being — <a href="https://alternativeto.net/lists/46354/faded-names-rigid-frames/">in the other, a specimen</a>.</blockquote>
 
 ## 
 
 <p>© 2026 Aleksandr Flawrist. Shared true to the <a href="https://raw.githubusercontent.com/flawrist/flawrist/refs/heads/main/license.txt">Passalong Perennial Tradition</a>.</p>
-
-<!--
-IDEAS
-- <div><sup><a href="/readme.txt">plain text version</a></sup></div>
-- Original: <img src="https://github.com/user-attachments/assets/ab07c916-6691-4f42-88f2-941dcdc694d4">
