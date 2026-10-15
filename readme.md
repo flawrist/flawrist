@@ -149,7 +149,7 @@ Let us build what shelters, rather than excludes.
 ```math
 \large
 \begin{array}{ll}
-& \strut\text{Pulse falters when a username turns into a tight collar.}\cr
+& \strut\text{Pulse sinks when a username turns into a tight collar.}\cr
 & \strut\text{Your past self hangs upon tomorrow like a millstone.}\cr
 & \strut\text{You give less and less, then one night you are a fossil.}\cr
 & \strut\text{Some joints let you fix the papers and stay in the game.}\cr
