@@ -153,12 +153,12 @@ Let us build what shelters, rather than excludes.
 & \strut\text{Your past self hangs upon tomorrow like a millstone.}\cr
 & \strut\text{You give less and less, then one night you are a fossil.}\cr
 & \strut\text{Some joints let you fix the papers and stay in the game.}\cr
-& \strut\text{Some seal the registry or charge a ransom for the ink.}\cr
+& \strut\text{Others seal the registry or charge a ransom for the ink.}\cr
 \end{array}
 ```
 </div></ruby></div>
 
-<blockquote>One leaves you a living being — <a href="https://alternativeto.net/lists/46354/faded-names-rigid-frames/">the other, a specimen</a>.</blockquote>
+<blockquote>Here, you are a living being — <a href="https://alternativeto.net/lists/46354/faded-names-rigid-frames/">there, a specimen</a>.</blockquote>
 
 ## 
 
