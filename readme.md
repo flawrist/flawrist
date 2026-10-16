@@ -151,8 +151,8 @@ Let us build what shelters, rather than excludes.
 \begin{array}{ll}
 & \strut\text{Pulse sinks when a username hardens into a millstone.}\cr
 & \strut\text{Your vestigial self chokes tomorrow like a tight collar.}\cr
-& \strut\text{You give less and less, then one night you are a fossil.}\cr
-& \strut\text{Some joints let you fix the papers and breathe again.}\cr
+& \strut\text{You give less and less. Then, one night, you are a fossil.}\cr
+& \strut\text{Some joints let you fix the papers. You breathe again.}\cr
 & \strut\text{Others seal the registry or charge a ransom for the ink.}\cr
 \end{array}
 ```
