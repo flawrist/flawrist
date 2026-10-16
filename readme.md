@@ -162,4 +162,4 @@ Let us build what shelters, rather than excludes.
 
 ## 
 
-<p>© 2026 Aleksandr Flawrist. Shared true to the <a href="https://raw.githubusercontent.com/flawrist/flawrist/refs/heads/main/license.txt">Passalong Perennial Tradition</a>.</p>
+<p>© 2026 Aleksandr Flawrist. Shared under the <a href="https://raw.githubusercontent.com/flawrist/flawrist/refs/heads/main/license.txt">Passalong Perennial Tradition</a>.</p>
